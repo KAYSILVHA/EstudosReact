@@ -1,4 +1,4 @@
-import './App.css';'
+import './App.css'
 import Pessoa from './components/Pessoa'
 
 function App() {
