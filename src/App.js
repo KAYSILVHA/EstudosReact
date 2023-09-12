@@ -1,15 +1,16 @@
 import './App.css';
 import HelloWorld from './components/HelloWorld'
+import SayMyName from './components/SayMyName'
 
 function App() {
-const name = "Kayra"
-const url = 'https://via.placeholder.com/150'
+
+  const nome = "João"
   return (
     <div className="App">
-      <h1>Alterando o JSX</h1>
-      <p>Olá, {name}</p>
-      <img src={url} alt="Imagem" />
       <HelloWorld/>
+      <SayMyName nome = "Kayra"/>
+      <SayMyName nome = "Maria"/>
+      <SayMyName nome = {nome}/>
     </div>
   );
 }
